@@ -20,7 +20,7 @@ A Discord bot for automatically banning users based on a database of banned user
 
     - Buy your [bot (Discord bot.py)](https://billing.velvox.net/cart.php?a=confproduct&i=0) and use "Python Generic"
     - Then go to the [gamepanel](https://game.velvox.net) and go to "your server" > files and drop the .tar file in to the `/home/container/` directory, and extract it.
-    - Create a database in the "Database" tab and write the login information down/
+    - Create a database in the "Database" tab and write the login information down.
 
 3. **Configure the Bot**
 
