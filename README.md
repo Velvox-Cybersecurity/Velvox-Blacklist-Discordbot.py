@@ -26,9 +26,10 @@ A Discord bot for automatically banning users based on a database of banned user
 
    - Open the `bot.py` and edit the the `def get_mysql_connection` and put the correct login data in to the file.
      ```python
-            host='yourdatabasehost',  # MySQL server IP without port
+            host='yourdatabasehost',  # MySQL server IP
             user='yourdatabaseuser',   # MySQL user
-            password='yourdatabasepassword', # MySQL password
+            password='yourdatabasepassword',  # MySQL password
+            database='yourdatabasename', # MySQL database name
      ```
     - Then scroll down to the last line of code to the `bot.run()` statement. and add your bot token you can get this at the [Discord Developer Portal](https://discord.com/developers).
         ```python
